@@ -17,7 +17,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lil.Products.Test", "Lil.Pr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lil.Sales.Test", "Lil.Sales.Test\Lil.Sales.Test.csproj", "{F9DCCF74-1348-4D26-9E4B-039532F5D247}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lil.Search.Test", "Lil.Search.Test\Lil.Search.Test.csproj", "{A9E05630-CF2F-4D25-83C9-F3AE06DC9E20}"
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{2B14255B-7F28-4310-AC9E-E386615D61E3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,10 +53,10 @@ Global
 		{F9DCCF74-1348-4D26-9E4B-039532F5D247}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F9DCCF74-1348-4D26-9E4B-039532F5D247}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F9DCCF74-1348-4D26-9E4B-039532F5D247}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A9E05630-CF2F-4D25-83C9-F3AE06DC9E20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A9E05630-CF2F-4D25-83C9-F3AE06DC9E20}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A9E05630-CF2F-4D25-83C9-F3AE06DC9E20}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A9E05630-CF2F-4D25-83C9-F3AE06DC9E20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B14255B-7F28-4310-AC9E-E386615D61E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B14255B-7F28-4310-AC9E-E386615D61E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B14255B-7F28-4310-AC9E-E386615D61E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B14255B-7F28-4310-AC9E-E386615D61E3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
