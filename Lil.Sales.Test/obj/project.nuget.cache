@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "EkVdV3THnC+gRTk7BSGQppO6ImT7/C98zoOinklwe46fUVYZnMjRbGydpuNRTMmZzqLuOPUQbxSd1IMgIolCFA==",
+  "dgSpecHash": "K4q8Z7Y2B6a8HcSsXh78OokhCu8AhioG3eWDv/5S8dsuzyCL+3K3LF8pB6Pe6UzmF6aZGj1gtyrLMw7fnuX+Zw==",
   "success": true,
   "projectFilePath": "C:\\Users\\vicen\\Desktop\\lab\\Sistemas Distribuidos\\Azure Microservicios esencial\\Lil\\Lil.Sales.Test\\Lil.Sales.Test.csproj",
   "expectedPackageFiles": [
@@ -42,6 +42,7 @@
     "C:\\Users\\vicen\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\vicen\\.nuget\\packages\\microsoft.testplatform.objectmodel\\17.3.2\\microsoft.testplatform.objectmodel.17.3.2.nupkg.sha512",
     "C:\\Users\\vicen\\.nuget\\packages\\microsoft.testplatform.testhost\\17.3.2\\microsoft.testplatform.testhost.17.3.2.nupkg.sha512",
+    "C:\\Users\\vicen\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.17.0\\microsoft.visualstudio.azure.containers.tools.targets.1.17.0.nupkg.sha512",
     "C:\\Users\\vicen\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\vicen\\.nuget\\packages\\mstest.testadapter\\2.2.10\\mstest.testadapter.2.2.10.nupkg.sha512",
     "C:\\Users\\vicen\\.nuget\\packages\\mstest.testframework\\2.2.10\\mstest.testframework.2.2.10.nupkg.sha512",
