@@ -31,3 +31,4 @@ C:\Users\vicen\Desktop\lab\Sistemas Distribuidos\Azure Microservicios esencial\L
 C:\Users\vicen\Desktop\lab\Sistemas Distribuidos\Azure Microservicios esencial\Lil\Lil.Search\obj\Debug\net5.0\Lil.Search.pdb
 C:\Users\vicen\Desktop\lab\Sistemas Distribuidos\Azure Microservicios esencial\Lil\Lil.Search\obj\Debug\net5.0\Lil.Search.genruntimeconfig.cache
 C:\Users\vicen\Desktop\lab\Sistemas Distribuidos\Azure Microservicios esencial\Lil\Lil.Search\obj\Debug\net5.0\ref\Lil.Search.dll
+C:\Users\vicen\Desktop\lab\Sistemas Distribuidos\Azure Microservicios esencial\Lil\Lil.Search\bin\Debug\net5.0\Newtonsoft.Json.dll

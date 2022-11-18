@@ -1,3 +1,5 @@
+using Lil.Search.Interfaces;
+using Lil.Search.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -26,9 +28,23 @@ namespace Lil.Search
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddHttpClient("customersService", c =>
+            services.AddSingleton<ICustomersServices, CustomerServices>();
+            services.AddSingleton<IProductsServices, ProductsServices>();
+            services.AddSingleton<ISalesServices, SalesServices>();
+
+            services.AddHttpClient("CustomerServices", c =>
             {
                 c.BaseAddress = new Uri(Configuration["Services:Customers"]);
+            });
+
+            services.AddHttpClient("productsServices", c =>
+            {
+                c.BaseAddress = new Uri(Configuration["Services:Products"]);
+            });
+
+            services.AddHttpClient("salesService", c =>
+            {
+                c.BaseAddress = new Uri(Configuration["Services:Sales"]);
             });
 
             services.AddControllers();
@@ -48,7 +64,7 @@ namespace Lil.Search
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Lil.Search v1"));
             }
 
-            app.UseHttpsRedirection();
+            //app.UseHttpsRedirection();
 
             app.UseRouting();
 

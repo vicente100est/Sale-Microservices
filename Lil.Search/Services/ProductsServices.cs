@@ -6,28 +6,28 @@ using System.Threading.Tasks;
 
 namespace Lil.Search.Services
 {
-    public class CustomerServices : ICustomersServices
+    public class ProductsServices : IProductsServices
     {
         private readonly IHttpClientFactory _http;
-        public CustomerServices(IHttpClientFactory httpClientFactory)
+        public ProductsServices(IHttpClientFactory httpClientFactory)
         {
             this._http = httpClientFactory;
         }
-        public async Task<Customer> GetAsync(string id)
-        {
-            var client = _http.CreateClient("CustomerServices");
 
-            var response = await client.GetAsync($"api/Customers/{id}");
+        public async Task<Product> GetAsync(string id)
+        {
+            var client = _http.CreateClient("productsServices");
+
+            var response = await client.GetAsync($"api/Products/{id}");
 
             if (response.IsSuccessStatusCode)
             {
                 var content = await response.Content.ReadAsStringAsync();
 
-                var customer = JsonConvert.DeserializeObject<Customer>(content);
+                var product = JsonConvert.DeserializeObject<Product>(content);
 
-                return customer;
+                return product;
             }
-
             return null;
         }
     }
