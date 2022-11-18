@@ -3,13 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33103.184
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lil.Products", "Lil.Products\Lil.Products.csproj", "{57B365B5-DB44-41C2-BE2C-AC031A248FE4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lil.Products", "Lil.Products\Lil.Products.csproj", "{57B365B5-DB44-41C2-BE2C-AC031A248FE4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lil.Coustomers", "Lil.Coustomers\Lil.Coustomers.csproj", "{D9F64DBF-C837-498F-88F5-BBF5CF60BC4E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lil.Coustomers", "Lil.Coustomers\Lil.Coustomers.csproj", "{D9F64DBF-C837-498F-88F5-BBF5CF60BC4E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lil.Sales", "Lil.Sales\Lil.Sales.csproj", "{D93D3155-8645-45E7-BD22-F2F52BE2D2E4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lil.Sales", "Lil.Sales\Lil.Sales.csproj", "{D93D3155-8645-45E7-BD22-F2F52BE2D2E4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lil.Search", "Lil.Search\Lil.Search.csproj", "{077F988B-4A1E-4C49-B93B-84A4DF5C0104}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lil.Search", "Lil.Search\Lil.Search.csproj", "{077F988B-4A1E-4C49-B93B-84A4DF5C0104}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lil.Customers.Tests", "Lil.Customers.Tests\Lil.Customers.Tests.csproj", "{04BADA08-2BCA-4A61-A034-2C059ECC6DD5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lil.Products.Test", "Lil.Products.Test\Lil.Products.Test.csproj", "{5C2AD1FE-02BA-4593-BC93-2B58B9833551}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lil.Sales.Test", "Lil.Sales.Test\Lil.Sales.Test.csproj", "{F9DCCF74-1348-4D26-9E4B-039532F5D247}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lil.Search.Test", "Lil.Search.Test\Lil.Search.Test.csproj", "{A9E05630-CF2F-4D25-83C9-F3AE06DC9E20}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +41,22 @@ Global
 		{077F988B-4A1E-4C49-B93B-84A4DF5C0104}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{077F988B-4A1E-4C49-B93B-84A4DF5C0104}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{077F988B-4A1E-4C49-B93B-84A4DF5C0104}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04BADA08-2BCA-4A61-A034-2C059ECC6DD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04BADA08-2BCA-4A61-A034-2C059ECC6DD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04BADA08-2BCA-4A61-A034-2C059ECC6DD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04BADA08-2BCA-4A61-A034-2C059ECC6DD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C2AD1FE-02BA-4593-BC93-2B58B9833551}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C2AD1FE-02BA-4593-BC93-2B58B9833551}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C2AD1FE-02BA-4593-BC93-2B58B9833551}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C2AD1FE-02BA-4593-BC93-2B58B9833551}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9DCCF74-1348-4D26-9E4B-039532F5D247}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9DCCF74-1348-4D26-9E4B-039532F5D247}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9DCCF74-1348-4D26-9E4B-039532F5D247}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9DCCF74-1348-4D26-9E4B-039532F5D247}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9E05630-CF2F-4D25-83C9-F3AE06DC9E20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9E05630-CF2F-4D25-83C9-F3AE06DC9E20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9E05630-CF2F-4D25-83C9-F3AE06DC9E20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9E05630-CF2F-4D25-83C9-F3AE06DC9E20}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
